@@ -1,0 +1,4 @@
+/* About page */
+.about-page .semester-card { background: var(--pink-blush); }
+.about-page .semester-card li { margin-bottom: .4rem; }
+.about-page .semester-card li:last-child { margin-bottom: 0; }

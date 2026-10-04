@@ -1,0 +1,6 @@
+/* Contact page */
+.contact-page .contact-email { display: inline-block; margin-top: .25rem; color: var(--pink-primary); overflow-wrap: anywhere; }
+.contact-page .contact-list li { margin-bottom: 1.25rem; }
+.contact-page .contact-list li:last-child { margin-bottom: 0; }
+.contact-page .contact-card { transition: border-color .18s; }
+.contact-page .contact-card:hover { border-color: var(--pink-primary); }

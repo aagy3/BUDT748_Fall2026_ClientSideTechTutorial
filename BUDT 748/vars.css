@@ -1,0 +1,28 @@
+/* Shared palette. Change colors here to update every page. */
+:root {
+  --pink-paper: #fff8fb;
+  --pink-white: #ffffff;
+  --pink-blush: #ffe3ee;
+  --pink-soft: #ffc6dc;
+  --pink-bright: #e92a79;
+  --pink-primary: #ae1856;
+  --pink-primary-hover: #891142;
+  --pink-ink: #40152d;
+  --pink-muted: #735268;
+  --pink-border: #efd3df;
+  --pink-lemon: #f7f0aa;
+  --pink-radius: 1.5rem;
+  --pink-shadow: 0 14px 38px rgb(64 21 45 / 7%);
+  --pink-font: "Trebuchet MS", "Segoe UI", sans-serif;
+  --bs-primary: var(--pink-primary);
+  --bs-primary-rgb: 174, 24, 86;
+  --bs-body-color: var(--pink-ink);
+  --bs-body-bg: var(--pink-paper);
+  --bs-body-font-family: var(--pink-font);
+  --bs-link-color: var(--pink-primary);
+  --bs-link-color-rgb: 174, 24, 86;
+  --bs-link-hover-color: var(--pink-primary-hover);
+  --bs-link-hover-color-rgb: 137, 17, 66;
+  --bs-border-color: var(--pink-border);
+  --bs-secondary-color: var(--pink-muted);
+}

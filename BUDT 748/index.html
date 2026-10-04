@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Today let's create a sample website design in Figma and export its corresponding HTML and CSS code.">
+  <title>Home | BMGT407</title>
+  <link rel="stylesheet" href="./vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./vars.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="home-page">
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg site-nav" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html"><span class="brand-mark"><svg class="sparkle-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0 15.2 8.8 24 12 15.2 15.2 12 24 8.8 15.2 0 12 8.8 8.8Z"/></svg></span>BMGT407</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteNavigation" aria-controls="siteNavigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="siteNavigation">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="./index.html" aria-current="page">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="home-hero" aria-labelledby="home-title">
+      <div class="container text-center">
+        <h1 class="hero-title" id="home-title">LET’S CREATE A <span>WEBSITE DESIGN</span></h1>
+        <p class="hero-copy mx-auto">Today let's create a sample website design in Figma and export its corresponding HTML and CSS code.</p>
+        <a class="btn btn-pink mt-3" href="./about.html">Get Started</a>
+      </div>
+    </section>
+  </main>
+  <script src="./vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+</body>
+</html>

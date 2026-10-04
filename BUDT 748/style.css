@@ -1,0 +1,46 @@
+/* pink theme*/
+body { min-height: 100vh; background: var(--pink-paper); color: var(--pink-ink); }
+::selection { background: var(--pink-soft); color: var(--pink-ink); }
+a { text-underline-offset: .2em; }
+:focus-visible { outline: 3px solid var(--pink-primary); outline-offset: 4px; }
+.container { max-width: 1100px; }
+
+/* Nav */
+.site-header { background: var(--pink-paper); border-bottom: 1px solid var(--pink-border); }
+.site-nav { --bs-navbar-color: var(--pink-muted); --bs-navbar-hover-color: var(--pink-primary); padding-block: 1rem; }
+.navbar-brand { display: inline-flex; align-items: center; gap: .7rem; color: var(--pink-ink); font-size: 1.2rem; font-weight: 800; }
+.navbar-brand:hover { color: var(--pink-primary); }
+.brand-mark { display: grid; place-items: center; width: 2.5rem; height: 2.5rem; background: var(--pink-primary); color: white; border-radius: 50%; }
+.sparkle-icon { width: 1.25rem; height: 1.25rem; fill: currentColor; }
+.site-nav .navbar-nav { gap: .4rem; }
+.site-nav .nav-link { border-radius: 999px; padding: .65rem 1.25rem; font-size: .9rem; font-weight: 700; transition: background .18s; }
+.site-nav .nav-link:hover { background: var(--pink-blush); }
+.site-nav .nav-link.active { color: white; background: var(--pink-ink); }
+.navbar-toggler { border-color: var(--pink-border); border-radius: .8rem; padding: .5rem .65rem; }
+.navbar-toggler:focus { box-shadow: 0 0 0 .2rem var(--pink-soft); }
+
+/* Page stuff */
+.home-hero { min-height: calc(100vh - 84px); display: grid; align-items: center; padding-block: 4rem; }
+.hero-title { max-width: 56rem; margin: 0 auto 1.8rem; font-size: clamp(2.4rem, 5vw, 3.75rem); line-height: 1.15; font-weight: 800; letter-spacing: -.035em; }
+.hero-title span { color: var(--pink-primary); }
+.hero-copy { max-width: 44rem; font-size: clamp(1.1rem, 2vw, 1.5rem); line-height: 1.8; color: var(--pink-muted); }
+.content-section { padding-block: 4.5rem; }
+.page-title { max-width: 56rem; font-size: clamp(2rem, 4vw, 3.3rem); line-height: 1.2; font-weight: 800; letter-spacing: -.035em; }
+.page-copy { color: var(--pink-muted); font-size: 1.15rem; line-height: 1.8; }
+.pink-card { border: 1px solid var(--pink-border); border-radius: var(--pink-radius); background: var(--pink-white); box-shadow: var(--pink-shadow); }
+.pink-card .card-body { padding: 1.75rem; }
+.btn-pink { --bs-btn-color: #fff; --bs-btn-bg: var(--pink-primary); --bs-btn-border-color: var(--pink-primary); --bs-btn-hover-color: #fff; --bs-btn-hover-bg: var(--pink-primary-hover); --bs-btn-hover-border-color: var(--pink-primary-hover); --bs-btn-active-color: #fff; --bs-btn-active-bg: var(--pink-primary-hover); --bs-btn-active-border-color: var(--pink-primary-hover); --bs-btn-focus-shadow-rgb: 174, 24, 86; border-radius: 999px; padding: .85rem 1.65rem; font-size: 1.1rem; font-weight: 700; transition: transform .18s, box-shadow .18s; }
+.btn-pink:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgb(174 24 86 / 18%); }
+
+@media (max-width: 991.98px) {
+  .site-nav .navbar-collapse { padding-top: 1rem; }
+}
+@media (max-width: 575.98px) {
+  .container { padding-inline: 1.25rem; }
+  .content-section { padding-block: 3rem; }
+  .pink-card .card-body { padding: 1.4rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+  .btn-pink:hover { transform: none; }
+}
